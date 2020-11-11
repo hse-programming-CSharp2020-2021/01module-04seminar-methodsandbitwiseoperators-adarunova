@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anastasia\\source\\repos\\01m04s_Methods\\Task1\\Task1.csproj": {}
+    "C:\\Users\\Ася и Рита\\Source\\Repos\\01module-04seminar-methodsandbitwiseoperators-adarunova\\Task1\\Task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anastasia\\source\\repos\\01m04s_Methods\\Task1\\Task1.csproj": {
+    "C:\\Users\\Ася и Рита\\Source\\Repos\\01module-04seminar-methodsandbitwiseoperators-adarunova\\Task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anastasia\\source\\repos\\01m04s_Methods\\Task1\\Task1.csproj",
+        "projectUniqueName": "C:\\Users\\Ася и Рита\\Source\\Repos\\01module-04seminar-methodsandbitwiseoperators-adarunova\\Task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "C:\\Users\\Anastasia\\source\\repos\\01m04s_Methods\\Task1\\Task1.csproj",
-        "packagesPath": "C:\\Users\\Anastasia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anastasia\\source\\repos\\01m04s_Methods\\Task1\\obj\\",
+        "projectPath": "C:\\Users\\Ася и Рита\\Source\\Repos\\01module-04seminar-methodsandbitwiseoperators-adarunova\\Task1\\Task1.csproj",
+        "packagesPath": "C:\\Users\\Ася и Рита\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ася и Рита\\Source\\Repos\\01module-04seminar-methodsandbitwiseoperators-adarunova\\Task1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Anastasia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ася и Рита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -52,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

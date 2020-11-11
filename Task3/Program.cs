@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
  * На вход подаются три числа: параметры функции a, b, c
@@ -45,10 +46,46 @@ namespace Task3
 {
     class Program
     {
-        // TODO: самостоятельно выделите и напишите методы, использующиеся для решения задачи
+
+        const double step = 0.05;
+        const double beginning = 1.0;
+        const double end = 2;
+
+        static double Y(double x, double a, double b, double c)
+        {
+            if (Math.Abs(x - 1.2) < double.Epsilon)
+            {
+                return a / x + Math.Sqrt(x * x + 1);
+            }
+            else if (x < 1.2)
+            {
+                return a * x * x + b * x + c;
+            }
+            return (a + b * x) / Math.Sqrt(x * x + 1);
+        }
 
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            double a = 0;
+            double b = 0;
+            double c = 0;
+            for (int i = 0; i < 3; i++)
+            {
+                if (!double.TryParse(Console.ReadLine(), out c))
+                {
+                    Console.WriteLine("Ошибка");
+                    return;
+                }
+                if (i == 0)
+                    a = c;
+                else if (i == 1)
+                    b = c;
+            }
+            for (double x = beginning; x <= end; x += step)
+            {
+                Console.WriteLine($"{Y(x, a, b, c):f3}" );
+            }
         }
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\bin\Debug\netcoreapp3.1\Task2.exe
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\bin\Debug\netcoreapp3.1\Task2.deps.json
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.json
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.dev.json
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\bin\Debug\netcoreapp3.1\Task2.dll
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\bin\Debug\netcoreapp3.1\Task2.pdb
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.csprojAssemblyReference.cache
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfoInputs.cache
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfo.cs
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.csproj.CoreCompileInputs.cache
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.dll
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.pdb
+C:\Users\Ася и Рита\Source\Repos\01module-04seminar-methodsandbitwiseoperators-adarunova\Task2\obj\Debug\netcoreapp3.1\Task2.genruntimeconfig.cache

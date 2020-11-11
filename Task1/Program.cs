@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
  * Пользователь вводит неотрицательные целые (int) числа q и p, такие, что q <= p.
@@ -25,21 +26,46 @@ namespace Task1
     {
 
         // TODO: использовать передачу параметров по ссылке
-        static void ReadBoundaries()
+        static bool ReadBoundaries(out uint q, out uint p)
         {
-            // TODO: прочитать границы и проверить введенные данные на корректность
+            if (uint.TryParse(Console.ReadLine(), out q) && uint.TryParse(Console.ReadLine(), out p) && q <= p)
+            {
+                return true;
+            }
+            p = 0;
+            q = 0;
+            return false;
+
         }
 
-        static void PrintPythagorasNumbers()
+        static void PrintPythagorasNumbers(ref uint q, ref uint p)
         {
-            // TODO: вывести пифагоровы тройки с числами из введенного отрезка
+            for (uint a = q; a <= p; ++a)
+            {
+                for (uint b = a + 1; b <= p; ++b)
+                {
+                    for (uint c = b + 1; c <= p; ++c)
+                    {
+                        if (a * a + b * b == c * c)
+                        {
+                            Console.WriteLine($"{a} {b} {c}");
+                        }
+                    }
+                }
+            }
         }
 
         static void Main(string[] args)
         {
-            // TODO: дополнить метод так, чтобы программа выполняла поставленную задачу
-            ReadBoundaries();
-            PrintPythagorasNumbers();
+            Console.OutputEncoding = Encoding.UTF8;
+            if (ReadBoundaries(out uint q, out uint p))
+            {
+                PrintPythagorasNumbers(ref q, ref p);
+            }
+            else
+            {
+                Console.WriteLine("Ошибка");
+            }
         }
     }
 }
