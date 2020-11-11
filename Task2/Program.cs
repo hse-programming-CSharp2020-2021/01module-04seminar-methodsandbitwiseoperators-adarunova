@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
  * Пользователь последовательно вводит целые числа.
@@ -29,15 +30,34 @@ namespace Task2
     class Program
     {
         // TODO: используйте передачу параметров по ссылке
-        ReadData()
+        static void ReadData(out int sum, out int count)
         {
-            // TODO: Прочитать вводимые данные
+            sum = 0;
+            count = 0;
+            do
+            {
+                string input = Console.ReadLine();
+                if (input == "q")
+                    break;
+                if (!int.TryParse(input, out int number))
+                {
+                    count = -1;
+                    return;
+                }
+                if (number < 0)
+                {
+                    sum += number;
+                    count++;
+                }
+            } while (sum >= -1000);
         }
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine(/* TODO: вывести результат*/);
+            Console.OutputEncoding = Encoding.UTF8;
+            ReadData(out int sum, out int count);
+            Console.WriteLine(count > 0 ? $"{(sum / (double) count):f2}" : count == 0 ? "0" : "Ошибка");
         }
     }
 }
